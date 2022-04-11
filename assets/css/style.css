@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Teko:wght@300&display=swap');
+/*heading*/
+h1,h2{
+  font-family: 'Roboto', 'Teko';
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  color: orangered;
+}
+body{
+  background: url('../images/house.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  height: 600px;
+}
+.text-box{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  /* margin: auto;
+  width: 5rem;
+  padding: 20px 50px 0px 0px ;
+  line-height: 2.5em;
+  row-gap: 20px; */
+}
+.text-box-row{
+  padding: 5px;
+}
+
+.word-check {
+  display: inline-block;
+  height: 20px;
+  width: 100px;
+}
