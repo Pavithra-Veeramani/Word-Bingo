@@ -3,7 +3,6 @@
 h1,h2{
   font-family: 'Roboto', 'Teko';
   font-size: 50px;
-  color: black;
   text-align: center;
   color: orangered;
 }
@@ -28,10 +27,63 @@ body{
 }
 .text-box-row{
   padding: 5px;
-}
+  
+  }
 
 .word-check {
   display: inline-block;
   height: 20px;
   width: 100px;
-}
+  
+  }
+  .collapsible{
+  background-color: darkmagenta;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 30%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 25px;
+  }
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  .collapsible:hover {
+    background-color:palevioletred;
+  }
+  
+  .content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  footer {
+    bottom: 0;
+    height: auto;
+    width: 100%;
+  }
+  .social-media {
+    text-align: center;
+  }
+  .social-media>li {
+    display: inline-block;
+    margin-right: 5em;
+    vertical-align:bottom;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .social-media i {
+    font-size: 160%;
+    margin: 1%;
+    color: darkmagenta;
+  }
