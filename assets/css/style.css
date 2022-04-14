@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Teko:wght@300&display=swap');
 /*heading*/
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 h1,h2{
   font-family: 'Roboto', 'Teko';
   font-size: 50px;
@@ -112,7 +117,32 @@ body{
   .feedback:hover {
     background-color:palevioletred;
   }
-  .contact{
-    text-align: center;
+  #fname {
+    padding: 13px 5px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    border-radius: 8px;
+  }
+  #email {
+    padding: 13px 5px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    border-radius: 8px
+  }
+  #message {
+    padding: 13px 5px;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    border-radius: 8px;
+    font-family:  'source sans pro', 'open sans';
+    resize: none;
+  }
+  .btn-submit{
+  background: rgb(218,165,32);
+  color: black;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 8px;
   }
   

@@ -9,16 +9,19 @@
 </head>
 <body>
     <div class = "contact-bg">
-        <div class = "contact-form">
-            <h2 id = contact>Feedback form</h2>
+       <div class = "contact-form">   
+            <h2>Feedback form</h2>
             <form action = "https://formdump.codeinstitute.in" method="POST">
-                <input type ="text" id ="fname" name="fname" placeholder="name" aria-label="Enter full name" required>
+                <input type ="text" id ="fname" name="fname" placeholder="Name" aria-label="Enter full name" required>
                 <input type = "text" id="email" name="email" placeholder="Email" aria-label="Enter email" required>
+                <textarea id = "message" name = "message" rows = "10" cols = "33" placeholder="Please enter your feedback here"
+                aria-label = "Enter your message"></textarea>
+                <input type="submit" value="Submit" class="btn-submit" aria-label="Click submit">
             </form>
         </div>
     </div>
-    <div class = "feedback">
-        <a class = "feedback" href = "index.html">Play Again</a>
+    <div class = "feedback-us">
+        <a class = "feedback-us" href = "index.html">Play Again</a>
     </div>
     <footer>
         <ul class = "social-media">
