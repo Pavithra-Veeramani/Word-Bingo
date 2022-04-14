@@ -7,7 +7,7 @@ h1,h2{
   color: orangered;
 }
 body{
-  background: url('../images/house.jpg');
+  background: url('../images/cartoon.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -26,8 +26,8 @@ body{
   row-gap: 20px; */
 }
 .text-box-row{
-  padding: 5px;
-  
+  padding: 10px;
+  margin: auto;
   }
 
 .word-check {
@@ -47,6 +47,7 @@ body{
   outline: none;
   font-size: 15px;
   border-radius: 25px;
+  
   }
   .collapsible:after {
     content: '\002B';
@@ -85,5 +86,33 @@ body{
   .social-media i {
     font-size: 160%;
     margin: 1%;
-    color: darkmagenta;
+    color: whitesmoke
   }
+  .feedback{
+  background: darkmagenta;
+  color: white;
+  height: 30px;
+  width: 120px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+  }
+  /*.feedback:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }*/
+  .feedback:hover {
+    background-color:palevioletred;
+  }
+  .contact{
+    text-align: center;
+  }
+  
