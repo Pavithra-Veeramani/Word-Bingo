@@ -1,49 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Teko:wght@300&display=swap');
+
 /*heading*/
-*{
+* {
   margin: 0;
   padding: 0;
   border: none;
 }
-h1,h2{
+
+h1,
+h2 {
   font-family: 'Roboto', 'Teko';
   font-size: 50px;
   text-align: center;
-  color: orangered;
+  color: black;
 }
-body{
-  background: url('../images/cartoon.jpg');
+
+body {
+  background: url('../images/starfishes.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width:100%;
+  width: 100%;
   height: 600px;
 }
-.text-box{
+
+.text-box {
   display: inline-block;
   width: 20px;
   height: 20px;
   text-align: center;
+  /*box-shadow: 5px 5px 5px lightcoral;*/
   /* margin: auto;
   width: 5rem;
   padding: 20px 50px 0px 0px ;
   line-height: 2.5em;
   row-gap: 20px; */
 }
-.text-box-row{
+
+
+.text-box-row {
   padding: 10px;
   margin: auto;
-  }
+  
+}
 
 .word-check {
   display: inline-block;
   height: 20px;
   width: 100px;
-  
-  }
-  .collapsible{
-  background-color: darkmagenta;
-  color: white;
+
+}
+
+.collapsible {
+  background-color: lightblue;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 30%;
@@ -51,98 +61,152 @@ body{
   text-align: center;
   outline: none;
   font-size: 15px;
-  border-radius: 25px;
-  
-  }
-  .collapsible:after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }
-  .collapsible:hover {
-    background-color:palevioletred;
-  }
-  
-  .content {
-    padding: 0 18px;
-    background-color: white;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
-  footer {
+  border-radius: 15px;
+
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible:hover {
+  background-color: lightgreen;
+}
+
+.content {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+footer {
+    height: 150px;
     bottom: 0;
     height: auto;
     width: 100%;
-  }
-  .social-media {
-    text-align: center;
-  }
-  .social-media>li {
-    display: inline-block;
-    margin-right: 5em;
-    vertical-align:bottom;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  
-  .social-media i {
-    font-size: 160%;
-    margin: 1%;
-    color: whitesmoke
-  }
-  .feedback{
-  background: darkmagenta;
-  color: white;
+}
+
+
+.feedback-btn {
+  background: lightblue;
+  color: black;
   height: 30px;
   width: 120px;
   cursor: pointer;
   margin: auto;
   display: block;
   padding-bottom: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
   text-align: center;
   line-height: 2.5em;
   text-decoration: none;
-  }
-  /*.feedback:after {
+}
+
+/*.feedback:after {
     content: '\002B';
     color: white;
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }*/
-  .feedback:hover {
-    background-color:palevioletred;
-  }
-  #fname {
-    padding: 13px 5px;
-    border: 1px solid #e1e1e1;
-    width: 100%;
-    border-radius: 8px;
-  }
-  #email {
-    padding: 13px 5px;
-    border: 1px solid #e1e1e1;
-    width: 100%;
-    border-radius: 8px
-  }
-  #message {
-    padding: 13px 5px;
-    border: 1px solid #e1e1e1;
-    width: 100%;
-    border-radius: 8px;
-    font-family:  'source sans pro', 'open sans';
-    resize: none;
-  }
-  .btn-submit{
-  background: rgb(218,165,32);
+.feedback-btn:hover {
+  background-color: lightgreen;
+}
+
+
+#fname {
+  padding: 13px 5px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 8px;
+}
+
+#email {
+  padding: 13px 5px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 8px
+}
+
+#message {
+  padding: 13px 5px;
+  border: 1px solid black;
+  width: 100%;
+  border-radius: 8px;
+  font-family: 'source sans pro', 'open sans';
+  resize: none;
+}
+
+.contact-bg {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-size: cover;
+}
+
+.contact-form {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 20px 20px 20px;
+  background-size: contain;
+  font-family: 'open sans', sans-serif;
+  
+}
+
+#contact {
+ 
+  text-align: center;
+}
+
+.btn-submit {
+  background: lightblue;
   color: black;
   height: 30px;
   width: 100px;
   cursor: pointer;
   border-radius: 8px;
-  }
-  
+  margin: 20px;
+}
+
+ .feedback-us {
+  background-color: lightblue;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  margin: auto;
+  width: 10%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.feedback-us:hover{
+  background-color: lightgreen;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-media>li {
+    display: inline;
+    margin-right: 5em;
+    vertical-align:bottom;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.social-media i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: rgb(124, 15, 15)
+}
