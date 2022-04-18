@@ -10,12 +10,13 @@ function onLoad(){
         for(let j=0; j < numOfTextInput; j++) {
             let elText = document.createElement("input");
             elText.className = "text-box";
+            elText.style.paddingLeft = "5px";
             elText.maxLength = 1;
             elText.addEventListener("blur", toUpper(elText));
             textboxdiv[i].appendChild(elText);
         }
         let elBtn = document.createElement("button");
-        elBtn.className = "word-check";
+        elBtn.className = "word-check-btn";
         elBtn.innerHTML = "Check";
         elBtn.addEventListener("click", checkWord);
         textboxdiv[i].appendChild(elBtn);

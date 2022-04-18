@@ -26,9 +26,10 @@ body {
 
 .text-box {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   text-align: center;
+  padding-left: 5px;
   border: 1px solid slategray;
   /*box-shadow: 5px 5px 5px lightcoral;*/
   /* margin: auto;
@@ -38,17 +39,22 @@ body {
   row-gap: 20px; */
 }
 
+.wordle-section {
+  font-size: 16px;
+  width: 25%;
+  margin: 0 auto;
+}
 
 .text-box-row {
   padding: 10px;
   margin: auto;
 }
 
-.word-check {
+.word-check-btn {
   display: inline-block;
-  height: 20px;
+  height: 30px;
+  padding: 5px;
   width: 100px;
-
 }
 
 .collapsible {
@@ -86,9 +92,9 @@ body {
 }
 
 footer {
-    height: 150px;
+    height: 50px;
     bottom: 0;
-    height: auto;
+    /* height: auto; */
     width: 100%;
 }
 
@@ -175,18 +181,18 @@ footer {
 }
 
  .feedback-us {
-  background-color: lightblue;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  margin: auto;
-  width: 10%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  border-radius: 25px;
-  text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    margin: auto;
+    width: 10%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    border-radius: 25px;
+    text-decoration: none;
 }
 .feedback-us:hover{
   background-color: lightgreen;
