@@ -29,6 +29,7 @@ body {
   width: 20px;
   height: 20px;
   text-align: center;
+  border: 1px solid slategray;
   /*box-shadow: 5px 5px 5px lightcoral;*/
   /* margin: auto;
   width: 5rem;
@@ -41,7 +42,6 @@ body {
 .text-box-row {
   padding: 10px;
   margin: auto;
-  
 }
 
 .word-check {
