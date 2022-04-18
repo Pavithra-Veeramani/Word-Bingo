@@ -12,7 +12,8 @@ function onLoad(){
             elText.className = "text-box";
             elText.style.paddingLeft = "5px";
             elText.maxLength = 1;
-            elText.addEventListener("blur", toUpper(elText));
+            elText.addEventListener("blur", toUpper);
+            elText.addEventListener("keyup", focusNext);
             textboxdiv[i].appendChild(elText);
         }
         let elBtn = document.createElement("button");
@@ -22,9 +23,12 @@ function onLoad(){
         textboxdiv[i].appendChild(elBtn);
     }
 } 
+function focusNext(event) {
+    event.target.nextSibling.focus();
+}
 
-function toUpper(textbox){
-    textbox.value = textbox.value.toUpperCase();
+function toUpper(event){
+    event.target.value = event.target.value.toUpperCase();
 }
 
 function checkWord(event) {
