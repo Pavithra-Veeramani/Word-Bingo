@@ -10,7 +10,6 @@ function onLoad(){
         for(let j=0; j < numOfTextInput; j++) {
             let elText = document.createElement("input");
             elText.className = "text-box";
-            elText.style.paddingLeft = "5px";
             elText.maxLength = 1;
             elText.addEventListener("blur", toUpper);
             elText.addEventListener("keyup", focusNext);

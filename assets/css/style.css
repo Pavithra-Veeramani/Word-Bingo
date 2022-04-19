@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Teko:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Shojumaru&display=swap');
 /*heading*/
 * {
   margin: 0;
@@ -9,14 +9,14 @@
 
 h1,
 h2 {
-  font-family: 'Roboto', 'Teko';
+  font-family: 'Shojumaru', 'Charm';
   font-size: 50px;
   text-align: center;
-  color: black;
+  color: #E6E6E6;
 }
 
 body {
-  background: url('../images/starfishes.jpg');
+  background-color: #691156;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,12 +25,13 @@ body {
 }
 
 .text-box {
-  display: inline-block;
+  
   width: 30px;
   height: 30px;
   text-align: center;
   padding-left: 5px;
-  border: 1px solid slategray;
+  border: 3px solid #691156;
+  
   /*box-shadow: 5px 5px 5px lightcoral;*/
   /* margin: auto;
   width: 5rem;
@@ -41,19 +42,21 @@ body {
 
 .wordle-section {
   font-size: 16px;
-  width: 25%;
+  width: 30%;
   margin: 0 auto;
+  padding: 25px 50px 75px 100px; 
+  align-items: center;
 }
 
 .text-box-row {
-  padding: 10px;
+  /* padding: 10px; */
   margin: auto;
+  gap: 10px;
+  
 }
 
 .word-check-btn {
-  display: inline-block;
   height: 30px;
-  padding: 5px;
   width: 100px;
 }
 
@@ -121,9 +124,9 @@ footer {
     float: right;
     margin-left: 5px;
   }*/
-.feedback-btn:hover {
+/* .feedback-btn:hover {
   background-color: lightgreen;
-}
+ /* } */
 
 
 #fname {
@@ -172,7 +175,7 @@ footer {
 
 .btn-submit {
   background: lightblue;
-  color: black;
+   color: black;
   height: 30px;
   width: 100px;
   cursor: pointer;
@@ -191,12 +194,12 @@ footer {
     text-align: center;
     outline: none;
     font-size: 15px;
-    border-radius: 25px;
+    border-radius: 8px;
     text-decoration: none;
 }
-.feedback-us:hover{
+/* .feedback-us:hover{ 
   background-color: lightgreen;
-}
+ } */
 
 .social-media {
   text-align: center;
