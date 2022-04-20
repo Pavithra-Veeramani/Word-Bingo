@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Shojumaru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Ubuntu:ital,wght@1,500&display=swap');
 /*heading*/
 * {
   margin: 0;
@@ -9,14 +9,15 @@
 
 h1,
 h2 {
-  font-family: 'Shojumaru', 'Charm';
+  font-family: 'Orbitron', 'Charm';
   font-size: 50px;
   text-align: center;
+  padding-top: 10px;
   color:#2B2B2B;
 }
 
 body {
-  background-color:#249EA0;
+  background-color:#00B4D8;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -30,7 +31,8 @@ body {
   height: 30px;
   text-align: center;
   padding-left: 5px;
-  border: 3px solid #249EA0;
+  border: 3px solid #00B4D8;
+  border-radius: 8px;
   
   /*box-shadow: 5px 5px 5px lightcoral;*/
   /* margin: auto;
@@ -50,6 +52,7 @@ body {
 
 .text-box-row {
   /* padding: 10px; */
+  padding-top: 20px;
   margin: auto;
   gap: 10px;
   
@@ -58,34 +61,11 @@ body {
 .word-check-btn {
   height: 30px;
   width: 100px;
+  font-family: "ubuntu";
+  font-weight: 20px;
+  background-color: #0077B6;
+  border-radius: 5px;
 }
-
-.collapsible {
-  background-color: lightblue;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 30%;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  border-radius: 15px;
-
-}
-
-.collapsible:after {
-  content: '\002B';
-  color: white;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.collapsible:hover {
-  background-color: lightgreen;
-}
-
 .content {
   padding: 0 18px;
   background-color: white;
@@ -100,25 +80,13 @@ footer {
     /* height: auto; */
     width: 100%;
 }
-.home-btn{
-  background: #044464;
-  color: black;
-  height: 30px;
-  width: 120px;
-  cursor: pointer;
-  margin: auto;
-  display: block;
-  padding-bottom: 10px;
-  border-radius: 15px;
-  text-align: center;
-  line-height: 2.5em;
-  text-decoration: none;
-}
+
 .instructions-btn{
-  background: #FAAB36;
+  background: #0077B6;
   color: black;
   height: 30px;
   width: 120px;
+  font-family: "ubuntu";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -130,10 +98,11 @@ footer {
 }
 
 .feedback-btn {
-  background:#FAAB36;
+  background:#0077B6;
   color: black;
   height: 30px;
   width: 120px;
+  font-family: "ubuntu";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -144,17 +113,29 @@ footer {
   text-decoration: none;
 }
 
-/*.feedback:after {
-    content: '\002B';
-    color: white;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-  }*/
-/* .feedback-btn:hover {
-  background-color: lightgreen;
- /* } */
+.letsplay-btn{
+  background:#0077B6;
+  color: black;
+  height: 30px;
+  width: 120px;
+  font-family: "ubuntu";
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 2.5em;
+  text-decoration: none;
+}
+.rules{
+  text-align: left;
+  font-family: "ubuntu";
+  font-size: 25px;
+  margin: 10px;
+  padding: 20px 0px 50px 50px;
 
+}
 
 #fname {
   padding: 13px 5px;
@@ -201,7 +182,7 @@ footer {
 }
 
 .btn-submit {
-  background: lightblue;
+  background: #0077B6;
    color: black;
   height: 30px;
   width: 100px;
@@ -211,7 +192,7 @@ footer {
 }
 
  .feedback-us {
-    background-color: lightblue;
+    background-color:#0077B6 ;
     color: black;
     cursor: pointer;
     padding: 18px;
