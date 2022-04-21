@@ -17,7 +17,6 @@ Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
     3. [Instructions Section](#instructions-section)
     4. [Game section](#game-section)
     5. [Result Section](#result-section)
-    6. [404 Error Page](#404-error-page)
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -41,3 +40,9 @@ Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
 ## User Experience (UX)
 
 ### Project Goals
+
+### User Stories
+
+### Color Scheme
+
+### Typography

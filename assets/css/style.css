@@ -9,7 +9,7 @@
 
 h1,
 h2 {
-  font-family: 'Orbitron', 'Charm';
+  font-family: 'Orbitron',"sans-serif" ;
   font-size: 50px;
   text-align: center;
   padding-top: 10px;
@@ -61,7 +61,7 @@ body {
 .word-check-btn {
   height: 30px;
   width: 100px;
-  font-family: "ubuntu";
+  font-family: "ubuntu", "sans-serif";
   font-weight: 20px;
   background-color: #0077B6;
   border-radius: 5px;
@@ -86,7 +86,7 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu";
+  font-family: "ubuntu", "sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -102,7 +102,7 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu";
+  font-family: "ubuntu","sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -118,7 +118,7 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu";
+  font-family: "ubuntu","sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -130,7 +130,7 @@ footer {
 }
 .rules{
   text-align: left;
-  font-family: "ubuntu";
+  font-family: "ubuntu","sans-serif";
   font-size: 25px;
   margin: 10px;
   padding: 20px 0px 50px 50px;
@@ -183,7 +183,8 @@ footer {
 
 .btn-submit {
   background: #0077B6;
-   color: black;
+  color: black;
+  font-family: "ubuntu";
   height: 30px;
   width: 100px;
   cursor: pointer;
@@ -192,8 +193,9 @@ footer {
 }
 
  .feedback-us {
-    background-color:#0077B6 ;
+    background-color:#0077B6;
     color: black;
+    font-family: "ubuntu","sans-serif";
     cursor: pointer;
     padding: 18px;
     margin: auto;
