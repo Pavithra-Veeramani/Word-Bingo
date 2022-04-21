@@ -1,5 +1,5 @@
 
-var challengeWord = challengeWords[Math.floor(Math.random()*challengeWords.length)];
+let challengeWord = challengeWords[Math.floor(Math.random()*challengeWords.length)];
 let challengeWordsArray = Array.from(challengeWord);
 const numOfTextInput = 5;
 console.log(challengeWord);
@@ -24,8 +24,7 @@ function onLoad(){
 } 
 function focusNext(event) {
     console.log(event.keyCode);
-    //TODO: bring all denied keys from common.js
-    //tab, space, ctrl, backspace
+   
     if(event.keyCode == 9 || event.keyCode == 32 || event.keyCode == 16 || event.keyCode == 8) {
         return;
     }
@@ -45,15 +44,15 @@ function checkWord(event) {
         let challengeLetter = challengeWord.charAt(i);
         let textElement = childArr[i];
         if (challengeLetter == textElement.value){
-            //TODO: set a rgb from a common.js
+            
             textElement.style.background = "#00ff80";
-            challengeWordsArray.splice(i, 1)
+            challengeWordsArray.splice(i, 1);
         } else{
             if(challengeWordsArray.includes(textElement.value)) {
-                //TODO: set a rgb from a common.js
+               
                 textElement.style.background = "orange";
             } else {
-                //TODO: set a rgb from a common.js
+                
                 textElement.style.background = "grey";
             }
         }

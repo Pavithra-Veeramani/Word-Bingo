@@ -1,4 +1,5 @@
 # Wordle
+
 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022.Players have to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
 
 Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
@@ -12,11 +13,9 @@ Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
     4. [Typography](#typography)
     5. [Wireframes](#wireframes)
 2. [Features](#features)
-    1. [General](#general)
-    2. [Home Section](#home-section)
-    3. [Instructions Section](#instructions-section)
-    4. [Game section](#game-section)
-    5. [Result Section](#result-section)
+    1. [Home Section](#home-section)
+    2. [Instructions Section](#instructions-section)
+    3. [Feedback Section](#Feedback-section)
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -67,3 +66,31 @@ The primary font used in the game logo is orbitron with sans serif as fallback f
 
 ### Wireframes
 [Balsamiq](https://balsamiq.com/) is used to create mockups for the project before any code is written and demonstrating different tools used in the website.
+
+Page | Wireframe
+--- | ---
+Home section | ![Home section wireframe image](assets/wireframes/home-section.png)
+Instructions section | ![Instructions wireframe image](assets/wireframes/instructions-section.png)
+Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
+
+[Back to top ⇧](#Wordle)
+
+## Technologies Used
+
+### Languages Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Javascript](https://en.wikipedia.org/wiki/JavaScript)
+
+### Frameworks, Libraries and Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+    -Google Fonts was used import fonts.
+* [Font Awesome](https://fontawesome.com/)
+    -Font Awesome was used for social media icons.
+* [W3C Markup Validator](https://validator.w3.org/)
+    - W3C Markup Validator was used to validate the HTML code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+    - W3C CSS Validator was used to validate the CSS code.
+* [JSHint](https://jshint.com/)
+    -JS Hints was used to validate the javascript code.
