@@ -40,9 +40,30 @@ Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
 ## User Experience (UX)
 
 ### Project Goals
+* The website is designed considering the expectation of users to be simple and easy to use.
 
+* The user interface is easy to navigate (inlcudes instructions and feedback button.)
+
+* The letters in the game are highlighted with three different colors to solve the puzzle.
+
+* Responsive design for all screen/device sizes like mobile, tablet and desktop.
+
+* A feedback section is provided to get comments from the user.
 ### User Stories
+
+* As a player, I want the game's website to be understandable and easy to navigate.
+
+* As a player, I want the game to be interestig and engaging.
+
+* As a player, I want hint to guess the correct letter. 
+
+* As a player, I want to be able to play the game on different devices.
 
 ### Color Scheme
 
 ### Typography
+
+The primary font used in the game logo is orbitron with sans serif as fallback font and ubuntu as secondary font which is used in instruction section with sans serif as fallback font.
+
+### Wireframes
+[Balsamiq](https://balsamiq.com/) is used to create mockups for the project before any code is written and demonstrating different tools used in the website.

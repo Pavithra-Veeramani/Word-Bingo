@@ -34,10 +34,37 @@ body {
 }
 
 footer {
-    height: 50px;
-    bottom: 0;
-    /* height: auto; */
-    width: 100%;
+  padding-top: 25px;
+  margin: 0 auto;
+  height: 50px;
+  bottom: 0;
+  /* height: auto; */
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+
+.social-media {
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+.social-media>li {
+    display: inline;
+    margin: 2em;
+    vertical-align:bottom;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* border: 1px solid black; */
+}
+
+.social-media i {
+  font-size: 160%;
+  margin: 1%;
+  /* padding: 5%; */
+  color:#2B2B2B;
+  /* border: 1px solid black; */
 }
 
 .instructions-btn{
@@ -136,7 +163,6 @@ footer {
 }
 
 #contact {
- 
   text-align: center;
 }
 
@@ -166,28 +192,7 @@ footer {
     border-radius: 8px;
     text-decoration: none;
 }
-/* .feedback-us:hover{ 
-  background-color: lightgreen;
- } */
 
-.social-media {
-  text-align: center;
-}
-
-.social-media>li {
-    display: inline;
-    margin-right: 5em;
-    vertical-align:bottom;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.social-media i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color:#2B2B2B;
-}
 
 /* Mobile Responsiveness Start */
 @media only screen and (max-width: 600px) {
@@ -223,6 +228,9 @@ footer {
     background-color: #0077B6;
     border-radius: 5px;
   }
+  .menu-section {
+    padding-top: 25px;
+  }
 }
 
 /* Tablet/Laptop/Desktop Responsiveness Start */
@@ -239,18 +247,21 @@ footer {
   
   .wordle-section {
     font-size: 16px;
-    width: 30%;
+    width: 40%;
     margin: 0 auto;
-    padding: 25px 50px 75px 100px; 
+    /* padding: 25px 50px 75px 100px;  */
     align-items: center;
+    /* border: 1px solid black; */
   }
   
   .text-box-row {
     /* padding: 10px; */
-    padding-top: 20px;
-    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    margin: 0 auto;
     gap: 10px;
-    
+    align-items: center;
+    justify-content: center;
   }
   
   .word-check-btn {
@@ -261,4 +272,15 @@ footer {
     background-color: #0077B6;
     border-radius: 5px;
   }
+
+ .menu-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    padding-top: 30px;
+    /* border: 1px solid black; */
+  } 
 }
