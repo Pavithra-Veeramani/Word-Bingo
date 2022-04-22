@@ -20,11 +20,10 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
 4. [Testing](#testing)
-    1. [Testing User Stories](#testing-user-stories)
-    2. [Code Validation](#code-validation)
-    3. [Accessibility](#accessibility)
-    4. [Tools Testing](#tools-testing)
-    5. [Manual Testing](#manual-testing)
+    1. [Code Validation](#code-validation)
+    2. [Accessibility](#accessibility)
+    3. [Tools Testing](#tools-testing)
+    4. [Manual Testing](#manual-testing)
 5. [Finished Product](#finished-product)
 6. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
@@ -119,3 +118,10 @@ Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
     - W3C CSS Validator was used to validate the CSS code.
 * [JSHint](https://jshint.com/)
     -JS Hints was used to validate the javascript code.
+
+## Testing
+### Code Validation
+* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate all pages of the project in order to ensure there were no syntax errors.
+* The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used to validate JavaScript code.
+
+### Accessibility

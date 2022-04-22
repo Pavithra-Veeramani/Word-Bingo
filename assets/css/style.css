@@ -6,7 +6,15 @@
   padding: 0;
   border: none;
 }
-
+#bg-video{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 h1,
 h2 {
   font-family: 'Orbitron',"sans-serif" ;
@@ -16,14 +24,14 @@ h2 {
   color:#2B2B2B;
 }
 /* Style body */
-body {
-  background-color:#00B4D8;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 600px;
-}
+/* body {
+  /* background-color:#00B4D8;  */
+  /* background-repeat: no-repeat;  */
+  /* background-position: center;  */
+  /* background-size: cover;  */
+  /* width: 100%;  */
+  /* height: 600px;  */
+} */
 
 .content {
   padding: 0 18px;
@@ -116,12 +124,16 @@ footer {
 }
 /* Style rules in feedback-section */
 .rules{
-  text-align: left;
-  font-family: "ubuntu","sans-serif";
-  font-size: 25px;
-  margin: 10px;
-  padding: 20px 0px 50px 50px;
-
+  /* text-align: left; */
+  /* font-family: "ubuntu","sans-serif"; */
+  /* font-size: 25px; */
+  /* margin: 10px; */
+  /* padding: 20px 0px 50px 50px; */
+  margin: auto;
+  width: 60%;
+  border: 3px solid #0077B6;
+  padding: 10px
+  
 }
 /* Style feedback form */
 #fname {
