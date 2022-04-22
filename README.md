@@ -2,7 +2,7 @@
 
 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022.Players have to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
 
-Visit the website [here] (https://pavithra-veeramani.github.io/Wordle/)
+Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
 ## Table of Contents
 
