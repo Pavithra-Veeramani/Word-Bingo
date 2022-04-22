@@ -125,3 +125,20 @@ Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
 * The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used to validate JavaScript code.
 
 ### Accessibility
+* Lighthouse in chrome DevTools are used to check the performance,accessibility and best practices.
+
+![Lighthouse report for landing page image]
+
+### Tools Testing
+
+ [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+
+ - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles.
+
+ * Responsiveness
+
+    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
+
+     - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+
+
