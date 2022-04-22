@@ -75,6 +75,31 @@ Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
 
 [Back to top ⇧](#Wordle)
 
+## Features
+### Home Section
+![Home section image]
+* **Text Boxes**
+- The home section contains text boxes in which the user can enter the letters.
+
+* **Check Buttons**
+- The check buttons are used to check if the letters are in the correct place.
+
+* **Instructions Button**
+- The instructions button is linked to the game instructions page.
+
+* **Feedback Button**
+- The feedback button is linked to the feedback page where the users can enter their comments.
+
+### Instructions Section
+![Instructions section image]
+
+* The instruction section provides information about how to play the game. 
+
+### Feedback Section
+![Instructions section image]
+
+* The feedback section provides input fields and feedback area where the user can enter their comments.
+
 ## Technologies Used
 
 ### Languages Used
