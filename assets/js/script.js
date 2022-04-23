@@ -47,7 +47,7 @@ function checkWord(event) {
 
         let challengeLetter = challengeWord.charAt(i);
         let textElement = childArr[i];
-        textElement.disabled = true;
+        //textElement.disabled = true;
         if (challengeLetter == textElement.value){
             textElement.style.background = exactMatchColor;
             challengeWordsArray.splice(i, 1);
