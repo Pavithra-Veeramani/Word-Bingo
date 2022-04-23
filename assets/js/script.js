@@ -47,6 +47,7 @@ function checkWord(event) {
 
         let challengeLetter = challengeWord.charAt(i);
         let textElement = childArr[i];
+        //TODO: safari displaying background color if disabled.
         //textElement.disabled = true;
         if (challengeLetter == textElement.value){
             textElement.style.background = exactMatchColor;
