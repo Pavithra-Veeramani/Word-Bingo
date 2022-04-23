@@ -157,13 +157,6 @@ footer {
   resize: none;
 }
 
-.contact-bg {
-  width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background-size: cover;
-}
-
 .contact-form {
   text-align: center;
   font-size: 18px;
@@ -188,19 +181,19 @@ footer {
   font-family: 'Orbitron', "sans-serif";
 }
 
-.feedback-us {
-  background-color: #0077B6;
+.playagain-btn {
+  background: #0077B6;
   color: black;
+  height: 30px;
+  width: 120px;
   font-family: 'Orbitron', "sans-serif";
-  width: 50px;
-  padding: 18px;
+  cursor: pointer;
   margin: auto;
-  width: 10%;
-  border: none;
+  display: block;
+  padding-bottom: 10px;
+  border-radius: 15px;
   text-align: center;
-  outline: none;
-  font-size: 15px;
-  border-radius: 8px;
+  line-height: 2.5em;
   text-decoration: none;
 }
 
@@ -224,6 +217,12 @@ footer {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+  }
+
+  .contact-bg {
+    width: 100%;
+    margin: 0 auto;
+    background-size: cover;
   }
 
   .text-box-row {
@@ -344,7 +343,12 @@ footer {
     padding-top: 30px;
     /* border: 1px solid black; */
   }
-
+  .contact-bg {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+  }
   .success-msg{
     background-color: rgb(115, 200, 30);
     text-align: center;
