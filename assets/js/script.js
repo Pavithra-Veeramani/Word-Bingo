@@ -45,7 +45,7 @@ function checkWord(event) {
         let textElement = childArr[i];
         if (challengeLetter == textElement.value){
             
-            textElement.style.background = "#00ff80";
+            textElement.style.background = "#00cc00";
             challengeWordsArray.splice(i, 1);
         } else{
             if(challengeWordsArray.includes(textElement.value)) {

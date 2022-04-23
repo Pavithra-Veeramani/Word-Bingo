@@ -51,7 +51,7 @@ footer {
   height: 50px;
   bottom: 0;
   /* height: auto; */
-  width: 40%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   /* border: 1px solid black; */
@@ -85,7 +85,8 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu", "sans-serif";
+  /* font-family: "ubuntu", "sans-serif"; */
+  font-family: 'Orbitron', "sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -102,7 +103,8 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu", "sans-serif";
+  /* font-family: "ubuntu", "sans-serif"; */
+  font-family: 'Orbitron', "sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -119,7 +121,7 @@ footer {
   color: black;
   height: 30px;
   width: 120px;
-  font-family: "ubuntu", "sans-serif";
+  font-family: 'Orbitron', "sans-serif";
   cursor: pointer;
   margin: auto;
   display: block;
@@ -179,8 +181,7 @@ footer {
   font-size: 18px;
   padding: 20px 20px 20px 20px;
   background-size: contain;
-  font-family: 'open sans', sans-serif;
-
+  font-family: 'Orbitron', "sans-serif";
 }
 
 #contact {
@@ -191,18 +192,18 @@ footer {
 .btn-submit {
   background: #0077B6;
   color: black;
-  font-family: "ubuntu";
   height: 30px;
   width: 100px;
   cursor: pointer;
   border-radius: 8px;
   margin: 20px;
+  font-family: 'Orbitron', "sans-serif";
 }
 
 .feedback-us {
   background-color: #0077B6;
   color: black;
-  font-family: "ubuntu", "sans-serif";
+  font-family: 'Orbitron', "sans-serif";
   width: 50px;
   padding: 18px;
   margin: auto;
@@ -226,6 +227,7 @@ footer {
     border: 3px solid #00B4D8;
     border-radius: 8px;
     margin: 0 auto;
+    font-family: 'Orbitron', "sans-serif";
   }
 
   .wordle-section {
@@ -239,6 +241,7 @@ footer {
   .text-box-row {
     /* padding-top: 40px; */
     /* padding-left: 50px; */
+    
     margin-left: 20px;
     gap: 10px;
   }
@@ -246,7 +249,8 @@ footer {
   .word-check-btn {
     height: 40px;
     width: 75px;
-    font-family: "ubuntu", "sans-serif";
+    /* font-family: "ubuntu", "sans-serif"; */
+    font-family: 'Orbitron', "sans-serif";
     font-weight: 20px;
     background-color: #0077B6;
     border-radius: 5px;
@@ -273,6 +277,7 @@ footer {
     padding-left: 5px;
     border: 3px solid #00B4D8;
     border-radius: 8px;
+    font-family: 'Orbitron', "sans-serif";
   }
 
   .wordle-section {
@@ -297,7 +302,8 @@ footer {
   .word-check-btn {
     height: 30px;
     width: 100px;
-    font-family: "ubuntu", "sans-serif";
+    /* font-family: "ubuntu", "sans-serif"; */
+    font-family: 'Orbitron', "sans-serif";
     font-weight: 20px;
     background-color: #0077B6;
     border-radius: 5px;
@@ -313,4 +319,8 @@ footer {
     padding-top: 30px;
     /* border: 1px solid black; */
   }
+}
+
+.no-link {
+  text-decoration: none;
 }
