@@ -17,7 +17,7 @@ function onLoad(){
         }
         let elBtn = document.createElement("button");
         elBtn.className = "word-check-btn";
-        elBtn.innerHTML = "Check";
+        elBtn.innerHTML = checkBtnText;
         elBtn.addEventListener("click", checkWord);
         textboxdiv[i].appendChild(elBtn);
     }
@@ -36,25 +36,36 @@ function toUpper(event){
 }
 
 function checkWord(event) {
+    //disable the check button
+    event.target.disabled = true;
+
     let parentDiv = event.target.parentNode;
     let childArr =  parentDiv.children;
+    let successFlag = true;
 
     for(let i=0; i < childArr.length-1; i++) {
 
         let challengeLetter = challengeWord.charAt(i);
         let textElement = childArr[i];
+        textElement.disabled = true;
         if (challengeLetter == textElement.value){
-            
-            textElement.style.background = "#00cc00";
+            textElement.style.background = exactMatchColor;
             challengeWordsArray.splice(i, 1);
         } else{
+            successFlag = false;
             if(challengeWordsArray.includes(textElement.value)) {
-               
-                textElement.style.background = "orange";
+                textElement.style.background = matchColor;
             } else {
-                
-                textElement.style.background = "grey";
+                textElement.style.background = noMatchColor;
             }
         }
+    }
+    if(successFlag == true){
+        document.getElementById("result-message").innerHTML = resultSuccessMsg;
+        document.getElementById("result-message").className = "success-msg";
+
+    }else{
+        document.getElementById("result-message").innerHTML = resultErrorMsg;
+        document.getElementById("result-message").className = "failure-msg";
     }
 }

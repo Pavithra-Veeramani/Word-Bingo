@@ -132,18 +132,6 @@ footer {
   text-decoration: none;
 }
 
-/* Style rules in Instructions-section  */
-.rules {
-  /* text-align: left; */
-  /* font-family: "ubuntu","sans-serif"; */
-  /* font-size: 25px; */
-  /* margin: 10px; */
-  /* padding: 20px 0px 50px 50px; */
-  margin: auto;
-  width: 60%;
-  border: 3px solid #0077B6;
-  padding: 10px g
-}
 
 /* Style feedback form */
 #fname {
@@ -265,7 +253,44 @@ footer {
     margin: 0 auto;
     padding-top: 30px;
   }
+
+  .success-msg{
+    background-color: rgb(115, 200, 30);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+  
+  .failure-msg{
+    background-color: rgb(174, 25, 25);
+    text-align: center;
+    padding: 10px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+
+  /* Style rules in Instructions-section  */
+  .rules {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+
+  .rules-wrapper{
+    background-color: white;
+    margin:25px;
+    padding-left: 20px;
+  }
+  .rules-wrapper h1{
+    font-family: 'Orbitron', "sans-serif";
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+    color: #2B2B2B;
+  }
 }
+
 
 /* Tablet/Laptop/Desktop Responsiveness Start */
 @media only screen and (min-width: 600px) {
@@ -319,8 +344,47 @@ footer {
     padding-top: 30px;
     /* border: 1px solid black; */
   }
+
+  .success-msg{
+    background-color: rgb(115, 200, 30);
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+  
+  .failure-msg{
+    background-color: rgb(171, 34, 34);
+    text-align: center;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+
+  .rules {
+    /* text-align: left; */
+    /* font-family: "ubuntu","sans-serif"; */
+    /* font-size: 25px; */
+    /* margin: 10px; */
+    /* padding: 20px 0px 50px 50px; */
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-family: 'Orbitron', "sans-serif";
+  }
+
+  .rules-wrapper{
+    background-color: white;
+    margin:50px 50px 75px 100px;
+  }
+
 }
+/* Tablet/Laptop/Desktop Responsiveness end */
 
 .no-link {
   text-decoration: none;
 }
+
