@@ -67,9 +67,9 @@ The primary font used in the game logo is orbitron with sans serif as fallback f
 
 Page | Wireframe
 --- | ---
-Home section | ![Home section wireframe image](assets/wireframes/home.png)
-Instructions section | ![Instructions wireframe image](assets/wireframes/instructions.png)
-Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
+Home section | ![Home section wireframe image](/assets/images/readme/home.png)
+Instructions section | ![Instructions wireframe image](assets/images/readme/instructions.png)
+Feedback | ![Feedback wireframe image](assets/images/readme/feedback.png)
 
 [Back to top ⇧](#Wordle)
 
