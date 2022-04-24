@@ -216,7 +216,7 @@ footer {
     height: 40px;
     width: 75px;
     font-family: 'Orbitron', "sans-serif";
-    font-weight: 20px;
+    font-weight: 20;
     background-color: #0077B6;
     border-radius: 5px;
     color: black;
@@ -305,7 +305,7 @@ footer {
     height: 30px;
     width: 100px;
     font-family: 'Orbitron', "sans-serif";
-    font-weight: 20px;
+    font-weight: 20;
     background-color: #0077B6;
     border-radius: 5px;
     color: black;
@@ -353,6 +353,10 @@ footer {
     padding-top: 25px;
     padding-bottom: 50px;
     font-family: 'Orbitron', "sans-serif";
+  }
+
+  .rules li{
+    padding-top: 10px;
   }
 
   .rules-wrapper {
