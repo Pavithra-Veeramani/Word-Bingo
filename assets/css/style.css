@@ -269,6 +269,7 @@ footer {
     color: #2B2B2B;
   }
 }
+/* Mobile Responsiveness end  */
 
 
 /* Tablet/Laptop/Desktop Responsiveness Start */
@@ -289,7 +290,6 @@ footer {
     width: 40%;
     margin: 0 auto;
     align-items: center;
-
   }
 
   .text-box-row {
@@ -333,8 +333,9 @@ footer {
     background-color: rgb(115, 200, 30);
     text-align: center;
     padding: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
     font-family: 'Orbitron', "sans-serif";
   }
 
@@ -342,8 +343,9 @@ footer {
     background-color: rgb(171, 34, 34);
     text-align: center;
     padding: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
     font-family: 'Orbitron', "sans-serif";
   }
 
@@ -365,7 +367,6 @@ footer {
   }
 
 }
-
 /* Tablet/Laptop/Desktop Responsiveness end */
 
 .no-link {
