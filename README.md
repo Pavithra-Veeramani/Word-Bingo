@@ -141,4 +141,46 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
      - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
 
+     ### Manual Testing
+
+     * Browser Compatibility
+
+     Browser | Outcome | Pass/Fail 
+     --- | --- | ---
+     Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+     Safari | No appearance, responsiveness nor functionality issues. | Pass
+     Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+
+     * Device compatibility
+
+     Device | Outcome | Pass/Fail
+    --- | --- | ---
+    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
+    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
+    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
+
+    * Common Elements Testing
+
+       - General
+
+        Feature | Outcome | Pass/Fail
+        --- | --- | ---
+   
+    [Back to top ⇧](#Wordle)
+
+    ## Deployment
+
+    ### GitHub Pages
+
+        1. Log in to gitHub and click the GitHub repository.
+
+        2. At the top of the repository, find the settings button  in the menu.
+
+        3. Scroll down the settings page And find the pages section.
+
+        4. under source, click the none and select Main branch. 
+
+        5. The page will refresh and create alink to the website.
+
+    [Back to top ⇧](#Wordle)
 
