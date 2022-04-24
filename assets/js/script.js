@@ -4,7 +4,8 @@ let challengeWordsArray = Array.from(challengeWord);
 const numOfTextInput = 5;
 console.log(challengeWord);
 
-function onLoad(){
+window.addEventListener("load", function(event) {
+
     let textboxdiv = document.getElementsByClassName("text-box-row");
     for(let i=0; i<textboxdiv.length; i++) {
         for(let j=0; j < numOfTextInput; j++) {
@@ -21,7 +22,8 @@ function onLoad(){
         elBtn.addEventListener("click", checkWord);
         textboxdiv[i].appendChild(elBtn);
     }
-} 
+});
+
 function focusNext(event) {
     console.log(event.keyCode);
    

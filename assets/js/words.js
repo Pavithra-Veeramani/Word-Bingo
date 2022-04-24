@@ -2314,4 +2314,4 @@ const challengeWords = ["CIGAR",
 "ROWER",
 "ARTSY",
 "RURAL",
-"SHAVE"]
+"SHAVE"];
