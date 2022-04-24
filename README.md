@@ -68,14 +68,15 @@ The primary font used in the game logo is orbitron with sans serif as fallback f
 Page | Wireframe
 --- | ---
 Home section | <img src="assets/images/readme/home.png" width="200"> 
-Instructions section | ![Instructions wireframe image](assets/images/readme/instructions.png)
-Feedback | ![Feedback wireframe image](assets/images/readme/feedback.png)
+Instructions section | <img src="assets/images/readme/instructions.png" width="200">
+Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 [Back to top ⇧](#Wordle)
 
 ## Features
 ### Home Section
-![Home section image]
+<img src="assets/images/readme/screenshot-home.png" width="400"> 
+
 * **Text Boxes**
 - The home section contains text boxes in which the user can enter the letters.
 
@@ -89,12 +90,12 @@ Feedback | ![Feedback wireframe image](assets/images/readme/feedback.png)
 - The feedback button is linked to the feedback page where the users can enter their comments.
 
 ### Instructions Section
-![Instructions section image]
+<img src="assets/images/readme/screenshot-instructions.png" width="400"> 
 
 * The instruction section provides information about how to play the game. 
 
 ### Feedback Section
-![Instructions section image]
+<img src="assets/images/readme/screenshot-feedback.png" width="400"> 
 
 * The feedback section provides input fields and feedback area where the user can enter their comments.
 
