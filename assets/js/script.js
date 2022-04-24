@@ -1,10 +1,11 @@
+//challengeWords
 let challengeWord = challengeWords[Math.floor(Math.random() * challengeWords.length)];
 let challengeWordsArray = Array.from(challengeWord);
 const numOfTextInput = 5;
-console.log(challengeWord);
+
 
 window.addEventListener("load", function (event) {
-
+//textbox
     let textboxdiv = document.getElementsByClassName("text-box-row");
     for (let i = 0; i < textboxdiv.length; i++) {
         for (let j = 0; j < numOfTextInput; j++) {
@@ -24,8 +25,7 @@ window.addEventListener("load", function (event) {
 });
 
 function focusNext(event) {
-    console.log(event.keyCode);
-
+   
     if (event.keyCode == 9 || event.keyCode == 32 || event.keyCode == 16 || event.keyCode == 8) {
         return;
     }

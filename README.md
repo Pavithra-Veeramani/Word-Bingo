@@ -104,6 +104,8 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 * The feedback section provides input fields and feedback area where the user can enter their comments.
 
+[Back to top ⇧](#Wordle)
+
 ## Technologies Used
 
 ### Languages Used
@@ -119,10 +121,27 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
     -Font Awesome was used for social media icons.
 * [W3C Markup Validator](https://validator.w3.org/)
     - W3C Markup Validator was used to validate the HTML code.
+##### index.html
+<img src="assets/images/readme/index-validation.png" width="600">
+
+##### instructions.html
+<img src="assets/images/readme/instructions-validation.png" width="600">
+
+##### feedback.html
+<img src="assets/images/readme/feedback-validation.png" width="600">
+    
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-    - W3C CSS Validator was used to validate the CSS code.
+- W3C CSS Validator was used to validate the CSS code.
+
+  <img src="assets/images/readme/css-validation.png" width="600">
+    
+    
 * [JSHint](https://jshint.com/)
     -JS Hints was used to validate the javascript code.
+
+    <img src="assets/images/readme/js-validation.png" width="600">
+
+[Back to top ⇧](#Wordle)
 
 ## Testing
 ### Code Validation
@@ -136,7 +155,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 ### Tools Testing
 
- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+ * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
 
  - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles.
 
@@ -146,9 +165,9 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
      - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
 
-     ### Manual Testing
+### Manual Testing
 
-     * Browser Compatibility
+* Browser Compatibility
 
      Browser | Outcome | Pass/Fail 
      --- | --- | ---
@@ -158,20 +177,23 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
      Firefox | No appearance, responsiveness nor functionality issues. | Pass
 
 
-     * Device compatibility
+* Device compatibility
 
      Device | Outcome | Pass/Fail
     --- | --- | ---
-    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
-    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
-    Lenovo-9KJP4EOE | No appearance, responsiveness nor functionality issues. | Pass
+    Lenovo-laptop | No appearance, responsiveness nor functionality issues. | Pass
+    ipad pro | No appearance, responsiveness nor functionality issues. | Pass
+    iphone SE | No appearance, responsiveness nor functionality issues. | Pass
+    iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
 
-    * Common Elements Testing
 
-       - General
+* Common Elements Testing
+
+    - General
 
         Feature | Outcome | Pass/Fail
         --- | --- | ---
+        
    
     [Back to top ⇧](#Wordle)
 
@@ -191,12 +213,21 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
     [Back to top ⇧](#Wordle)
 
-    ## Credits
+## Credits
 
-    ### Content
+### Content
+
 * The instructions for the game were taken from the [Wordle Wiki](https://en.wikipedia.org/wiki/Wordle)
 
 ### Media
 
 The background video was taken from  [Pexels](https://www.pexels.com/video/digital-animation-of-geometric-shapes-8675548/) and developed by [Weldi 33 Studio Design](https://www.pexels.com/@weldi-33-studio-design-78158983/)
+
+## Acknowledgements
+
+Thanks to my mentor Marcel Mulders for his support and feedback.
+
+Thanks to the tutor support in code institute for their support.
+
+[Back to top ⇧](#Wordle)
 
