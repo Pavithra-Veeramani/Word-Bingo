@@ -181,7 +181,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
      Device | Outcome | Pass/Fail
     --- | --- | ---
-    Lenovo-laptop | No appearance, responsiveness nor functionality issues. | Pass
+    Laptop | No appearance, responsiveness nor functionality issues. | Pass
     ipad pro | No appearance, responsiveness nor functionality issues. | Pass
     iphone SE | No appearance, responsiveness nor functionality issues. | Pass
     iphone 12 pro | No appearance, responsiveness nor functionality issues. | Pass
@@ -191,9 +191,14 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
     - General
 
-        Feature | Outcome | Pass/Fail
-        --- | --- | ---
-        
+     Feature | Outcome | Pass/Fail
+     --- | --- | ---
+    Text box| Cursor automatically moves to the next box. | Pass
+    Buttons | Navigating to the required section. | Pass
+    Social Links | Open the specific website on a new tab. | Pass
+    Wide screen background | Show video background on devices with screen 1024px and up. | Pass
+    Landscape Orientation Blocker | Show full screen section when device is turned to landscape orientation. | Pass
+
    
     [Back to top ⇧](#Wordle)
 
@@ -222,6 +227,9 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 ### Media
 
 The background video was taken from  [Pexels](https://www.pexels.com/video/digital-animation-of-geometric-shapes-8675548/) and developed by [Weldi 33 Studio Design](https://www.pexels.com/@weldi-33-studio-design-78158983/)
+
+### Words
+The challenge words for the game was taken from the website (https://medium.com/@owenyin/here-lies-wordle-2021-2027-full-answer-list-52017ee99e86)
 
 ## Acknowledgements
 
