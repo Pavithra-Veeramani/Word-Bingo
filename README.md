@@ -1,4 +1,5 @@
 # Wordle
+![Wordle responsive images](assets/images/readme/am-i-responsive.png)
 
 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022.Players have to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
 
@@ -59,10 +60,14 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
 ### Color Scheme
 
+The colors used in the website are tone 0f blue (#0077B6) as background for the buttons and tone of black (#2B2B2B)
+for text color.
+
 ### Typography
 
 The primary font used in the game logo is orbitron with sans serif as fallback font.
 ### Wireframes
+
 [Balsamiq](https://balsamiq.com/) is used to create mockups for the project before any code is written and demonstrating different tools used in the website.
 
 Page | Wireframe
@@ -75,7 +80,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 ## Features
 ### Home Section
-<img src="assets/images/readme/screenshot-home.png" width="400"> 
+<img src="assets/images/readme/screenshot-home.png" width="600"> 
 
 * **Text Boxes**
 - The home section contains text boxes in which the user can enter the letters.
@@ -90,12 +95,12 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 - The feedback button is linked to the feedback page where the users can enter their comments.
 
 ### Instructions Section
-<img src="assets/images/readme/screenshot-instructions.png" width="400"> 
+<img src="assets/images/readme/screenshot-instructions.png" width="600"> 
 
 * The instruction section provides information about how to play the game. 
 
 ### Feedback Section
-<img src="assets/images/readme/screenshot-feedback.png" width="400"> 
+<img src="assets/images/readme/screenshot-feedback.png" width="600"> 
 
 * The feedback section provides input fields and feedback area where the user can enter their comments.
 
@@ -127,7 +132,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 ### Accessibility
 * Lighthouse in chrome DevTools are used to check the performance,accessibility and best practices.
 
-![Lighthouse report for landing page image]
+![Lighthouse report for landing page image](assets/images/readme/Screenshot-validation.png)
 
 ### Tools Testing
 
@@ -150,6 +155,8 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
      Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
      Safari | No appearance, responsiveness nor functionality issues. | Pass
      Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+     Firefox | No appearance, responsiveness nor functionality issues. | Pass
+
 
      * Device compatibility
 
@@ -174,7 +181,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
         1. Log in to gitHub and click the GitHub repository.
 
-        2. At the top of the repository, find the settings button  in the menu.
+        2. At the top of the repository, find the settings button in the menu.
 
         3. Scroll down the settings page And find the pages section.
 
@@ -183,4 +190,13 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
         5. The page will refresh and create alink to the website.
 
     [Back to top ⇧](#Wordle)
+
+    ## Credits
+
+    ### Content
+* The instructions for the game were taken from the [Wordle Wiki](https://en.wikipedia.org/wiki/Wordle)
+
+### Media
+
+The background video was taken from  [Pexels](https://www.pexels.com/video/digital-animation-of-geometric-shapes-8675548/) and developed by [Weldi 33 Studio Design](https://www.pexels.com/@weldi-33-studio-design-78158983/)
 

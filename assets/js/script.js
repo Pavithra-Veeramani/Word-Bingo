@@ -1,14 +1,13 @@
-
-let challengeWord = challengeWords[Math.floor(Math.random()*challengeWords.length)];
+let challengeWord = challengeWords[Math.floor(Math.random() * challengeWords.length)];
 let challengeWordsArray = Array.from(challengeWord);
 const numOfTextInput = 5;
 console.log(challengeWord);
 
-window.addEventListener("load", function(event) {
+window.addEventListener("load", function (event) {
 
     let textboxdiv = document.getElementsByClassName("text-box-row");
-    for(let i=0; i<textboxdiv.length; i++) {
-        for(let j=0; j < numOfTextInput; j++) {
+    for (let i = 0; i < textboxdiv.length; i++) {
+        for (let j = 0; j < numOfTextInput; j++) {
             let elText = document.createElement("input");
             elText.className = "text-box";
             elText.maxLength = 1;
@@ -26,14 +25,14 @@ window.addEventListener("load", function(event) {
 
 function focusNext(event) {
     console.log(event.keyCode);
-   
-    if(event.keyCode == 9 || event.keyCode == 32 || event.keyCode == 16 || event.keyCode == 8) {
+
+    if (event.keyCode == 9 || event.keyCode == 32 || event.keyCode == 16 || event.keyCode == 8) {
         return;
     }
     event.target.nextSibling.focus();
 }
 
-function toUpper(event){
+function toUpper(event) {
     event.target.value = event.target.value.toUpperCase();
 }
 
@@ -42,32 +41,31 @@ function checkWord(event) {
     event.target.disabled = true;
 
     let parentDiv = event.target.parentNode;
-    let childArr =  parentDiv.children;
+    let childArr = parentDiv.children;
     let successFlag = true;
 
-    for(let i=0; i < childArr.length-1; i++) {
+    for (let i = 0; i < childArr.length - 1; i++) {
 
         let challengeLetter = challengeWord.charAt(i);
         let textElement = childArr[i];
-        //TODO: safari displaying background color if disabled.
-        //textElement.disabled = true;
-        if (challengeLetter == textElement.value){
+
+        if (challengeLetter == textElement.value) {
             textElement.style.background = exactMatchColor;
             challengeWordsArray.splice(i, 1);
-        } else{
+        } else {
             successFlag = false;
-            if(challengeWordsArray.includes(textElement.value)) {
+            if (challengeWordsArray.includes(textElement.value)) {
                 textElement.style.background = matchColor;
             } else {
                 textElement.style.background = noMatchColor;
             }
         }
     }
-    if(successFlag == true){
+    if (successFlag == true) {
         document.getElementById("result-message").innerHTML = resultSuccessMsg;
         document.getElementById("result-message").className = "success-msg";
 
-    }else{
+    } else {
         document.getElementById("result-message").innerHTML = resultErrorMsg;
         document.getElementById("result-message").className = "failure-msg";
     }
