@@ -6,6 +6,7 @@
   padding: 0;
   border: none;
 }
+
 /* Background video */
 #bg-video {
   object-fit: cover;
@@ -43,7 +44,7 @@ footer {
   width: 100%;
   align-items: center;
   justify-content: center;
-  
+
 }
 
 .social-media {
@@ -60,7 +61,7 @@ footer {
   font-size: 160%;
   margin: 1%;
   color: #2B2B2B;
-  }
+}
 
 /* Style instructions button */
 .instructions-btn {
@@ -231,14 +232,14 @@ footer {
     padding-top: 30px;
   }
 
-  .success-msg{
+  .success-msg {
     background-color: rgb(115, 200, 30);
     text-align: center;
     padding: 10px;
     font-family: 'Orbitron', "sans-serif";
   }
-  
-  .failure-msg{
+
+  .failure-msg {
     background-color: rgb(174, 25, 25);
     text-align: center;
     padding: 10px;
@@ -254,12 +255,13 @@ footer {
     font-family: 'Orbitron', "sans-serif";
   }
 
-  .rules-wrapper{
+  .rules-wrapper {
     background-color: white;
-    margin:25px;
+    margin: 25px;
     padding-left: 20px;
   }
-  .rules-wrapper h1{
+
+  .rules-wrapper h1 {
     font-family: 'Orbitron', "sans-serif";
     font-size: 30px;
     text-align: center;
@@ -287,7 +289,7 @@ footer {
     width: 40%;
     margin: 0 auto;
     align-items: center;
-    
+
   }
 
   .text-box-row {
@@ -317,15 +319,17 @@ footer {
     gap: 10px;
     margin: 0 auto;
     padding-top: 30px;
-    
+
   }
+
   .contact-bg {
     width: 400px;
     margin: 0 auto;
     padding: 20px;
     background-size: cover;
   }
-  .success-msg{
+
+  .success-msg {
     background-color: rgb(115, 200, 30);
     text-align: center;
     padding: 10px;
@@ -333,8 +337,8 @@ footer {
     margin-left: 200px;
     font-family: 'Orbitron', "sans-serif";
   }
-  
-  .failure-msg{
+
+  .failure-msg {
     background-color: rgb(171, 34, 34);
     text-align: center;
     padding: 10px;
@@ -351,15 +355,15 @@ footer {
     font-family: 'Orbitron', "sans-serif";
   }
 
-  .rules-wrapper{
+  .rules-wrapper {
     background-color: white;
-    margin:50px 50px 75px 100px;
+    margin: 50px 50px 75px 100px;
   }
 
 }
+
 /* Tablet/Laptop/Desktop Responsiveness end */
 
 .no-link {
   text-decoration: none;
 }
-

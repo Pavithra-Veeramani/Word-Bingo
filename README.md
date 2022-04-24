@@ -61,15 +61,14 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
 ### Typography
 
-The primary font used in the game logo is orbitron with sans serif as fallback font and ubuntu as secondary font which is used in instruction section with sans serif as fallback font.
-
+The primary font used in the game logo is orbitron with sans serif as fallback font.
 ### Wireframes
 [Balsamiq](https://balsamiq.com/) is used to create mockups for the project before any code is written and demonstrating different tools used in the website.
 
 Page | Wireframe
 --- | ---
-Home section | ![Home section wireframe image](assets/wireframes/home-section.png)
-Instructions section | ![Instructions wireframe image](assets/wireframes/instructions-section.png)
+Home section | ![Home section wireframe image](assets/wireframes/home.png)
+Instructions section | ![Instructions wireframe image](assets/wireframes/instructions.png)
 Feedback | ![Feedback wireframe image](assets/wireframes/feedback.png)
 
 [Back to top ⇧](#Wordle)
