@@ -14,9 +14,9 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
     4. [Typography](#typography)
     5. [Wireframes](#wireframes)
 2. [Features](#features)
-    1. [Home Section](#home-section)
-    2. [Instructions Section](#instructions-section)
-    3. [Feedback Section](#Feedback-section)
+    1. [Home Page](#home-page)
+    2. [Instructions Page](#instructions-page)
+    3. [Feedback Page](#Feedback-page)
 3. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
     2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
@@ -25,14 +25,13 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
     2. [Accessibility](#accessibility)
     3. [Tools Testing](#tools-testing)
     4. [Manual Testing](#manual-testing)
-5. [Finished Product](#finished-product)
-6. [Deployment](#deployment)
+5. [Deployment](#deployment)
     1. [GitHub Pages](#github-pages)
-7. [Credits](#credits)
+6. [Credits](#credits)
     1. [Content](#content)
     2. [Media](#media)
     3. [Code](#code)
-8. [Acknowledgements](#acknowledgements)
+7. [Acknowledgements](#acknowledgements)
 
 ***
 
@@ -82,7 +81,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 [Back to top ⇧](#Wordle)
 
 ## Features
-### Home Section
+### Home Page
 <img src="assets/images/readme/screenshot-home.png" width="600"> 
 
 * **Text Boxes**
