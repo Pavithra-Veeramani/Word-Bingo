@@ -127,27 +127,31 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
     -Google Fonts was used import fonts.
 * [Font Awesome](https://fontawesome.com/)
     -Font Awesome was used for social media icons.
+
+### Validation
 * [W3C Markup Validator](https://validator.w3.org/)
-    - W3C Markup Validator was used to validate the HTML code.
-##### index.html
+    <p>W3C Markup Validator was used to validate all the HTML files.</p>
+#### index.html
 <img src="assets/images/readme/index-validation.png" width="600">
 
-##### instructions.html
+#### instructions.html
 <img src="assets/images/readme/instructions-validation.png" width="600">
 
-##### feedback.html
+#### feedback.html
 <img src="assets/images/readme/feedback-validation.png" width="600">
     
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-- W3C CSS Validator was used to validate the CSS code.
+    <p>W3C CSS Validator was used to validate the CSS code.</p>
 
-  <img src="assets/images/readme/css-validation.png" width="600">
+#### style.css
+<img src="assets/images/readme/css-validation.png" width="600">
     
     
 * [JSHint](https://jshint.com/)
-    -JS Hints was used to validate the javascript code.
+    <p>JS Hints was used to validate the javascript code.</p>
 
-    <img src="assets/images/readme/js-validation.png" width="600">
+#### words.js, common.js and script.js
+<img src="assets/images/readme/js-validation.png" width="600">
 
 [Back to top ⇧](#Wordle)
 
