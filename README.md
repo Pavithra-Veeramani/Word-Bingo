@@ -1,7 +1,9 @@
 # Wordle
 ![Wordle responsive images](assets/images/readme/am-i-responsive.png)
 
-Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022.Players have to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.
+Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022. Players have to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position. The game has become so popular that the number of people playing this game is increasing day by day.
+
+I attemped to create my own version of Wordle by maintaining a fixed set of words and randomly picking one for each game. The user has six attempts to guess the word. The app follows the same colors such as Green, Orange and Grey from the original Wordle game.
 
 Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
