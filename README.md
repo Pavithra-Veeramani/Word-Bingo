@@ -43,18 +43,21 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
 * The user interface is easy to navigate (inlcudes instructions and feedback button.)
 
-* The letters in the game are highlighted with three different colors to solve the puzzle.
+* The letters in the game are highlighted with three different colors to show the outcome.
 
-* Responsive design for all screen/device sizes like mobile, tablet and desktop.
+* Responsive design for all screen/device sizes like Mobile, Tablet, Laptop and Desktop.
 
-* A feedback section is provided to get comments from the user.
+* A feedback page is provided to get comments from the user.
+
 ### User Stories
 
 * As a player, I want the game's website to be understandable and easy to navigate.
 
 * As a player, I want the game to be interestig and engaging.
 
-* As a player, I want hint to guess the correct word. 
+* As a player, I want hint to guess the correct word.
+
+* As a player, I want to see the result of the game.
 
 * As a player, I want to be able to play the game on different devices.
 
@@ -128,6 +131,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 * [Font Awesome](https://fontawesome.com/)
     -Font Awesome was used for social media icons.
 
+## Testing
 ### Validation
 * [W3C Markup Validator](https://validator.w3.org/)
     <p>W3C Markup Validator was used to validate all the HTML files.</p>
@@ -155,27 +159,20 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 [Back to top ⇧](#Wordle)
 
-## Testing
-### Code Validation
-* The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate all pages of the project in order to ensure there were no syntax errors.
-* The [JSHints JavaScript Code Quality Tool](https://jshint.com/) was used to validate JavaScript code.
-
 ### Accessibility
-* Lighthouse in chrome DevTools are used to check the performance,accessibility and best practices.
+* Lighthouse in Google Chrome's DevTools is used to check the performance, accessibility and best practices.
 
 ![Lighthouse report for landing page image](assets/images/readme/Screenshot-validation.png)
 
 ### Tools Testing
 
  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
-
- - Chrome DevTools was used during the development process to test, explore and modify HTML elements and CSS styles.
+    <p>Chrome DevTools was used during the development process to test, debug, explore and modify HTML elements and CSS styles on the fly. </p>
 
  * Responsiveness
+    <p>[Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.</p>
 
-    - [Am I Responsive?](http://ami.responsivedesign.is/#) was used to check responsiveness of the site pages across different devices.
-
-     - Chrome DevTools was used to test responsiveness in different screen sizes during the development process.
+    <p>Chrome DevTools was used to test responsiveness in different screen sizes during the development process.</p>
 
 ### Manual Testing
 
@@ -218,15 +215,11 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
     ### GitHub Pages
 
-        1. Log in to gitHub and click the GitHub repository.
-
-        2. At the top of the repository, find the settings button in the menu.
-
-        3. Scroll down the settings page And find the pages section.
-
-        4. under source, click the none and select the Main branch. 
-
-        5. The page will refresh and create a link to the website.
+    * Log in to gitHub and click the GitHub repository.
+    * At the top of the repository, find the settings button in the menu.
+    * Scroll down the settings page And find the pages section.
+    * Under source, click the none and select the Main branch. 
+    * The page will refresh and create a link to the website.
 
     [Back to top ⇧](#Wordle)
 
@@ -234,14 +227,22 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 ### Content
 
-* The instructions for the game were taken from the [Wordle Wiki](https://en.wikipedia.org/wiki/Wordle)
+The introduction part of this readme was taken from the [Wordle Wiki](https://en.wikipedia.org/wiki/Wordle)
 
 ### Media
 
 The background video was taken from  [Pexels](https://www.pexels.com/video/digital-animation-of-geometric-shapes-8675548/) and developed by [Weldi 33 Studio Design](https://www.pexels.com/@weldi-33-studio-design-78158983/)
 
 ### Words
-The challenge words for the game was taken from the website (https://medium.com/@owenyin/here-lies-wordle-2021-2027-full-answer-list-52017ee99e86)
+The challenge words array for the game was populated by taking the words from the website (https://medium.com/@owenyin/here-lies-wordle-2021-2027-full-answer-list-52017ee99e86)
+
+### Code
+* A separate js file is maintained to store all the words in an array. A random number is generated each time and a word is picked out randomly uing this number.
+* DOM is used to dynamically construct a word line. This is done by finding div elements that have a particular css style and then adding child elements to it.
+* Whenever the Check button is clicked a logic is run to decide whether or not the user guessed the correct word.  This is done by comparing the letters from the random word against the letters from the user entered word.
+* A div element is maintained to show the result message. A boolean is maintained to capture the outcome of the game. This boolean is then used to decide what message to be shown in the div.
+* Whenever the player keys in a letter, the focus moves on to the next element automatically. This is done by handling keyup event for the letter text boxes.
+* The text boxes in the mobile app were getting zoomed in automatically when focussed. This was stopped by a viewport setting that was suggested in a thread in https://stackoverflow.com/.  
 
 ## Acknowledgements
 
