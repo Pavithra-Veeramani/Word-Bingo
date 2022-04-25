@@ -61,7 +61,7 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 ### Color Scheme
 
 The colors used in the website are tone 0f blue (#0077B6) as background for the buttons and tone of black (#2B2B2B)
-for text color.
+for text color. The colors used for the game success message is rgb(115, 200, 30) and for the failure message is  rgb(174, 25, 25) 
 
 ### Typography
 
@@ -83,16 +83,22 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 <img src="assets/images/readme/screenshot-home.png" width="600"> 
 
 * **Text Boxes**
-- The home section contains text boxes in which the user can enter the letters.
+    <p>The home section contains text boxes in which the user can enter the letters.</p>
 
 * **Check Buttons**
-- The check buttons are used to check if the letters are in the correct place.
+    <p>The check buttons are used to check whether the user guesed the correct word.</p>
+
+* **Messages**
+    <p>If the user guessed the correct letter then a success message is shown whereas an error message is shown if the user didn't guess the correct word</p>
+
+    <img src="assets/images/readme/Screenshot-Success-Msg.png" width="600">
+    <img src="assets/images/readme/Screenshot-Failure-Msg.png" width="600">
 
 * **Instructions Button**
-- The instructions button is linked to the game instructions page.
+    <p>The instructions button is linked to the game instructions page.</p>
 
 * **Feedback Button**
-- The feedback button is linked to the feedback page where the users can enter their comments.
+    <p>The feedback button is linked to the feedback page where the users can enter their comments.</p>
 
 ### Instructions Section
 <img src="assets/images/readme/screenshot-instructions.png" width="600"> 
@@ -212,9 +218,9 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
         3. Scroll down the settings page And find the pages section.
 
-        4. under source, click the none and select Main branch. 
+        4. under source, click the none and select the Main branch. 
 
-        5. The page will refresh and create alink to the website.
+        5. The page will refresh and create a link to the website.
 
     [Back to top ⇧](#Wordle)
 

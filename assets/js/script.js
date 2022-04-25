@@ -1,11 +1,11 @@
 //challengeWords
 let challengeWord = challengeWords[Math.floor(Math.random() * challengeWords.length)];
+console.log(challengeWord);
 let challengeWordsArray = Array.from(challengeWord);
 const numOfTextInput = 5;
 
-
 window.addEventListener("load", function (event) {
-//textbox
+    //textbox
     let textboxdiv = document.getElementsByClassName("text-box-row");
     for (let i = 0; i < textboxdiv.length; i++) {
         for (let j = 0; j < numOfTextInput; j++) {
@@ -61,6 +61,7 @@ function checkWord(event) {
             }
         }
     }
+    //Success and failure message
     if (successFlag == true) {
         document.getElementById("result-message").innerHTML = resultSuccessMsg;
         document.getElementById("result-message").className = "success-msg";
