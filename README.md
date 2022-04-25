@@ -54,7 +54,7 @@ Visit the website [here](https://pavithra-veeramani.github.io/Wordle/)
 
 * As a player, I want the game to be interestig and engaging.
 
-* As a player, I want hint to guess the correct letter. 
+* As a player, I want hint to guess the correct word. 
 
 * As a player, I want to be able to play the game on different devices.
 
@@ -100,15 +100,17 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 * **Feedback Button**
     <p>The feedback button is linked to the feedback page where the users can enter their comments.</p>
 
-### Instructions Section
+### Instructions Page
 <img src="assets/images/readme/screenshot-instructions.png" width="600"> 
 
-* The instruction section provides information about how to play the game. 
+<p>The instruction section provides information about how to play the game. This includes hints and tips etc.</p>
+<p>In the HTML an Unordered list is used to list down all the instructions wrapped inside a div container.</p>
 
-### Feedback Section
+### Feedback Page
 <img src="assets/images/readme/screenshot-feedback.png" width="600"> 
 
-* The feedback section provides input fields and feedback area where the user can enter their comments.
+<p>The feedback section provides input fields and feedback area where the user can enter their comments.</p>
+<p>The user can enter their name, email and a comment and submit using a Submit button. The form is posted to https://formdump.codeinstitute.net </p>
 
 [Back to top ⇧](#Wordle)
 
