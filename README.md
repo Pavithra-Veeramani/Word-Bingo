@@ -90,7 +90,7 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
     <p>The home section contains text boxes in which the user can enter the letters.</p>
 
 * **Check Buttons**
-    <p>The check buttons are used to check whether the user guesed the correct word.</p>
+    <p>The check buttons are used to check whether the user guessed the correct word.</p>
 
 * **Messages**
     <p>If the user guessed the correct letter then a success message is shown whereas an error message is shown if the user didn't guess the correct word</p>
