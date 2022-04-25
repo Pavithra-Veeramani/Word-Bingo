@@ -198,16 +198,27 @@ Feedback | <img src="assets/images/readme/feedback.png" width="200">
 
 * Common Elements Testing
 
-    - General
-
      Feature | Outcome | Pass/Fail
      --- | --- | ---
-    Text box| Cursor automatically moves to the next box. | Pass
-    Buttons | Navigating to the required section. | Pass
+    Text box| Cursor automatically moves to the next box after keying in a letter. | Pass
+    Feedback button | Successfully navigates to Feedback page. | Pass
+    Instructions button | Successfully navigates to Instructions page. | Pass
+    Check button | Shows Green color for an exact match for a letter. | Pass
+    Check button | Shows Orange color for a match for a letter. | Pass
+    Check button | Shows Grey color for an unmatched letter. | Pass
+    Success message | Shows 'Congratulations!!' message with a green style | Pass
+    Failure message | Shows 'Please try again.' message with a red style | Pass 
+    Play again button | Successfully navigates to the Home page. | Pass
+    Feedback Form | Successfully submits a form on click of Submit button | Pass
     Social Links | Open the specific website on a new tab. | Pass
     Wide screen background | Show video background on devices with screen 1024px and up. | Pass
     Landscape Orientation Blocker | Show full screen section when device is turned to landscape orientation. | Pass
 
+* Known bugs
+  Page | Bug 
+     --- | --- 
+    Feedback page | The Submit button's style is not properly displayed in iPad Pro
+    Home page | The letter text box is accepting all the characters as of now. This needs to be restricted to accept only alphabets.
    
     [Back to top ⇧](#Wordle)
 
